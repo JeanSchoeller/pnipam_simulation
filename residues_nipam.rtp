@@ -1,0 +1,182 @@
+[ ipaM ]
+ [ atoms ]
+CAL         opls_135    -0.180      1
+HAL1        opls_140     0.060      1
+HAL2        opls_140     0.060      1
+HAL3        opls_140     0.060      1
+CAM         opls_135    -0.180      2
+HAM1        opls_140     0.060      2
+HAM2        opls_140     0.060      2
+HAM3        opls_140     0.060      2
+CAK         opls_224B    0.140      3
+HAK1        opls_140     0.060      3
+NAJ         opls_238    -0.500      3
+HAW         opls_241     0.300      3
+CAH         opls_235     0.500      4
+OAI         opls_236    -0.500      4
+CAD         opls_137    -0.060      5
+HAD1        opls_140     0.060      5
+CAE         opls_136    -0.120      6
+HAE1        opls_140     0.060      6
+HAE2        opls_140     0.060      6
+ [ bonds ]
+    CAL    HAL1
+    CAL    HAL2
+    CAL    HAL3
+    CAL    CAK
+    CAK    HAK1
+    CAK    NAJ
+    CAK    CAM
+    CAM    HAM1
+    CAM    HAM2
+    CAM    HAM3
+    NAJ    HAW
+    NAJ    CAH
+    CAH    OAI
+    CAH    CAD
+    CAD    HAD1
+    CAD   -CAE
+    CAD    CAE
+    CAE    HAE1
+    CAE    HAE2
+    CAE   +CAD
+
+ [ dihedrals ]
+
+ HAL1   CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+ HAL2   CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+ HAL3   CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+ HAM1   CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+ HAM2   CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+ HAM3   CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+
+ [ impropers ]
+
+  OAI   CAH   CAD    NAJ    improper_Z_N_X_Y
+  HAW   NAJ   CAK    CAH    improper_O_C_X_Y
+
+; Terminal PNIPAm residue (”beginning” of chain)
+
+[ ipaB ]
+ [ atoms ]
+
+CAL         opls_135    -0.180      1
+HAL1        opls_140     0.060      1
+HAL2        opls_140     0.060      1
+HAL3        opls_140     0.060      1
+CAM         opls_135    -0.180      2
+HAM1        opls_140     0.060      2
+HAM2        opls_140     0.060      2
+HAM3        opls_140     0.060      2
+CAK         opls_224B    0.140      3
+HAK1        opls_140     0.060      3
+NAJ         opls_238    -0.500      3
+HAW         opls_241     0.300      3
+CAH         opls_235     0.500      4
+OAI         opls_236    -0.500      4
+CAD         opls_136    -0.120      5
+HAD1        opls_140     0.060      5
+HAD2        opls_140     0.060      5
+CAE         opls_136    -0.120      6
+HAE1        opls_140     0.060      6
+HAE2        opls_140     0.060      6
+
+ [ bonds ]
+
+    CAL    HAL1
+    CAL    HAL2
+    CAL    HAL3
+    CAL    CAK
+    CAK    HAK1
+    CAK    NAJ
+    CAK    CAM
+    CAM    HAM1
+    CAM    HAM2
+    CAM    HAM3
+    NAJ    HAW
+    NAJ    CAH
+    CAH    OAI
+    CAH    CAD
+    CAD    HAD1
+    CAD    HAD2
+    CAD    CAE
+    CAE    HAE1
+    CAE    HAE2
+    CAE    +CAD
+
+ [ dihedrals ]
+
+  HAL1  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAL2  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAL3  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM1  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM2  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM3  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+
+ [ impropers ]
+
+  OAI   CAH   CAD    NAJ    improper_Z_N_X_Y
+  HAW   NAJ   CAK    CAH    improper_O_C_X_Y
+
+; Terminal PNIPAm residue (“end” of chain)
+
+[ ipaT ]
+ [ atoms ]
+
+CAL         opls_135    -0.180      1
+HAL1        opls_140     0.060      1
+HAL2        opls_140     0.060      1
+HAL3        opls_140     0.060      1
+CAM         opls_135    -0.180      2
+HAM1        opls_140     0.060      2
+HAM2        opls_140     0.060      2
+HAM3        opls_140     0.060      2
+CAK         opls_224B    0.140      3
+HAK1        opls_140     0.060      3
+NAJ         opls_238    -0.500      3
+HAW         opls_241     0.300      3
+CAH         opls_235     0.500      4
+OAI         opls_236    -0.500      4
+CAD         opls_137    -0.060      5
+HAD1        opls_140     0.060      5
+CAE         opls_135    -0.180      6
+HAE1        opls_140     0.060      6
+HAE2        opls_140     0.060      6
+HAE3        opls_140     0.060      6
+
+ [ bonds ]
+   
+    CAL    HAL1
+    CAL    HAL2
+    CAL    HAL3
+    CAL    CAK
+    CAK    HAK1
+    CAK    NAJ
+    CAK    CAM
+    CAM    HAM1
+    CAM    HAM2
+    CAM    HAM3
+    NAJ    HAW
+    NAJ    CAH
+    CAH    OAI
+    CAH    CAD
+    CAD    HAD1
+    CAD    -CAE
+    CAD    CAE
+    CAE    HAE1
+    CAE    HAE2
+    CAE    HAE3
+
+ [ dihedrals ]
+
+  HAL1  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAL2  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAL3  CAL   CAK    CAM    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM1  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM2  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+  HAM3  CAM   CAK    CAL    0.6276 1.8828 0 -2.51 0 0; hydrocarbon all-atom
+
+ [ impropers ]
+
+  OAI   CAH   CAD    NAJ    improper_Z_N_X_Y
+  HAW   NAJ   CAK    CAH    improper_O_C_X_Y
